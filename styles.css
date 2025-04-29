@@ -187,3 +187,20 @@ form button:hover {
 .module .cta-btn:hover {
     background-color: #004c99;
 }
+/* Progress Bar */
+.progress-bar {
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.progress {
+    height: 25px;
+    background-color: #0066cc;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
