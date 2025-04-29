@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Georgia', serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header */
+header {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 16px;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #e0f7fa;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.cta-btn {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.cta-btn:hover {
+    background-color: #004c99;
+}
+
+/* Features Section */
+#features {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.feature {
+    margin-bottom: 30px;
+}
+
+.feature h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* How It Works Section */
+#how-it-works {
+    padding: 50px 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+/* About Us Section */
+#about-us {
+    padding: 50px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #0066cc;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+}
+
+footer .social-media a {
+    margin: 0 15px;
+}
