@@ -71,5 +71,34 @@
             <a href="#terms-of-use">Terms of Use</a>
         </div>
     </footer>
+       <!-- Signup Section -->
+<section id="signup">
+    <h3>Sign Up for CitizensCode</h3>
+    <form action="/submit-signup" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Sign Up</button>
+    </form>
+</section>
+    <!-- Login Section -->
+<section id="login">
+    <h3>Login to CitizensCode</h3>
+    <form action="/submit-login" method="POST">
+        <label for="email-login">Email:</label>
+        <input type="email" id="email-login" name="email" required>
+
+        <label for="password-login">Password:</label>
+        <input type="password" id="password-login" name="password" required>
+
+        <button type="submit">Login</button>
+    </form>
+</section>
 </body>
 </html>
